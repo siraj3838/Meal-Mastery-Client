@@ -1,0 +1,42 @@
+[
+    {
+        "name": "John Doe",
+        "position": "Head Chef",
+        "bio": "With over 15 years of culinary experience, John brings creativity and passion to every dish he creates. Specializing in fusion cuisine, he loves experimenting with unique flavor combinations to create memorable dining experiences.",
+        "image": "/src/assets/member-1.png",
+        "icon2": "/src/assets/social-1.png",
+        "icon3": "/src/assets/social-2.png",
+        "icon4": "/src/assets/social-3.png",
+        "icon5": "/src/assets/social-4.png"
+    },
+    {
+        "name": "Jane Smith",
+        "position": "Sous Chef",
+        "bio": "Jane's culinary journey began at a young age, learning traditional recipes from her grandmother. With a keen eye for detail and a love for fresh, seasonal ingredients, she adds a touch of elegance to every dish she prepares.",
+        "image": "/src/assets/member-2.png",
+        "icon2": "/src/assets/social-1.png",
+        "icon3": "/src/assets/social-2.png",
+        "icon4": "/src/assets/social-3.png",
+        "icon5": "/src/assets/social-4.png"
+    },
+    {
+        "name": "Michael Johnson",
+        "position": "Pastry Chef",
+        "bio": "Michael's passion for pastry started in his grandmother's kitchen, where he learned the art of baking from scratch. From delicate pastries to decadent desserts, he crafts sweet delights that captivate the senses.",
+        "image": "/src/assets/member-3.png",
+        "icon2": "/src/assets/social-1.png",
+        "icon3": "/src/assets/social-2.png",
+        "icon4": "/src/assets/social-3.png",
+        "icon5": "/src/assets/social-4.png"
+    },
+    {
+        "name": "Emily Brown",
+        "position": "Sommelier",
+        "bio": "Emily's love for wine began during her travels through the vineyards of Europe. With a deep knowledge of wines from around the world, she curates the perfect wine pairings to complement every meal.",
+        "image": "/src/assets/member-4.png",
+        "icon2": "/src/assets/social-1.png",
+        "icon3": "/src/assets/social-2.png",
+        "icon4": "/src/assets/social-3.png",
+        "icon5": "/src/assets/social-4.png"
+    }
+]

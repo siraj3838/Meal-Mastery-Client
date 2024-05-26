@@ -1,0 +1,74 @@
+[
+    {
+        "img": "/src/assets/food (1).png",
+        "title": "Spaghetti Carbonara",
+        "rating": 4.5,
+        "price": 12.99,
+        "icon1": "/src/assets/love.png",
+        "icon2": "/src/assets/eye.png",
+        "category": "Italian"
+    },
+    {
+        "img": "/src/assets/food (2).png",
+        "title": "Margherita Pizza",
+        "rating": 4.8,
+        "price": 10.99,
+        "icon1": "/src/assets/love.png",
+        "icon2": "/src/assets/eye.png",
+        "category": "Italian"
+    },
+    {
+        "img": "/src/assets/food (3).png",
+        "title": "Classic Cheeseburger",
+        "rating": 4.7,
+        "price": 8.99,
+        "icon1": "/src/assets/love.png",
+        "icon2": "/src/assets/eye.png",
+        "category": "American"
+    },
+    {
+        "img": "/src/assets/food (4).png",
+        "title": "Caesar Salad",
+        "rating": 4.6,
+        "price": 7.99,
+        "icon1": "/src/assets/love.png",
+        "icon2": "/src/assets/eye.png",
+        "category": "Salads"
+    },
+    {
+        "img": "/src/assets/food (5).png",
+        "title": "Beef Tacos",
+        "rating": 4.9,
+        "price": 9.99,
+        "icon1": "/src/assets/love.png",
+        "icon2": "/src/assets/eye.png",
+        "category": "Mexican"
+    },
+    {
+        "img": "/src/assets/food (6).png",
+        "title": "Sushi Platter",
+        "rating": 4.8,
+        "price": 14.99,
+        "icon1": "/src/assets/love.png",
+        "icon2": "/src/assets/eye.png",
+        "category": "Japanese"
+    },
+    {
+        "img": "/src/assets/food (7).png",
+        "title": "Grilled Ribeye Steak",
+        "rating": 4.9,
+        "price": 19.99,
+        "icon1": "/src/assets/love.png",
+        "icon2": "/src/assets/eye.png",
+        "category": "Steakhouse"
+    },
+    {
+        "img": "/src/assets/food (8).png",
+        "title": "Penne Arrabbiata",
+        "rating": 4.7,
+        "price": 11.99,
+        "icon1": "/src/assets/love.png",
+        "icon2": "/src/assets/eye.png",
+        "category": "Italian"
+    }
+]
