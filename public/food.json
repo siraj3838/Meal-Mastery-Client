@@ -1,74 +1,74 @@
 [
     {
-        "img": "/src/assets/food (1).png",
+        "img": "https://i.ibb.co/LZNXhhX/food-1.png",
         "title": "Spaghetti Carbonara",
         "rating": 4.5,
         "price": 12.99,
-        "icon1": "/src/assets/love.png",
-        "icon2": "/src/assets/eye.png",
+        "icon1": "https://i.ibb.co/mBdVznv/love.png",
+        "icon2": "https://i.ibb.co/1bSbLbC/eye.png",
         "category": "Italian"
     },
     {
-        "img": "/src/assets/food (2).png",
+        "img": "https://i.ibb.co/1Q8gqNF/food-2.png",
         "title": "Margherita Pizza",
         "rating": 4.8,
         "price": 10.99,
-        "icon1": "/src/assets/love.png",
-        "icon2": "/src/assets/eye.png",
+        "icon1": "https://i.ibb.co/mBdVznv/love.png",
+        "icon2": "https://i.ibb.co/1bSbLbC/eye.png",
         "category": "Italian"
     },
     {
-        "img": "/src/assets/food (3).png",
+        "img": "https://i.ibb.co/0DkGD0C/food-3.png",
         "title": "Classic Cheeseburger",
         "rating": 4.7,
         "price": 8.99,
-        "icon1": "/src/assets/love.png",
-        "icon2": "/src/assets/eye.png",
+        "icon1": "https://i.ibb.co/mBdVznv/love.png",
+        "icon2": "https://i.ibb.co/1bSbLbC/eye.png",
         "category": "American"
     },
     {
-        "img": "/src/assets/food (4).png",
+        "img": "https://i.ibb.co/Zh2bj05/food-4.png",
         "title": "Caesar Salad",
         "rating": 4.6,
         "price": 7.99,
-        "icon1": "/src/assets/love.png",
-        "icon2": "/src/assets/eye.png",
+        "icon1": "https://i.ibb.co/mBdVznv/love.png",
+        "icon2": "https://i.ibb.co/1bSbLbC/eye.png",
         "category": "Salads"
     },
     {
-        "img": "/src/assets/food (5).png",
+        "img": "https://i.ibb.co/KwYQ4Fx/food-5.png",
         "title": "Beef Tacos",
         "rating": 4.9,
         "price": 9.99,
-        "icon1": "/src/assets/love.png",
-        "icon2": "/src/assets/eye.png",
+        "icon1": "https://i.ibb.co/mBdVznv/love.png",
+        "icon2": "https://i.ibb.co/1bSbLbC/eye.png",
         "category": "Mexican"
     },
     {
-        "img": "/src/assets/food (6).png",
+        "img": "https://i.ibb.co/wsm8Td3/food-6.png",
         "title": "Sushi Platter",
         "rating": 4.8,
         "price": 14.99,
-        "icon1": "/src/assets/love.png",
-        "icon2": "/src/assets/eye.png",
+        "icon1": "https://i.ibb.co/mBdVznv/love.png",
+        "icon2": "https://i.ibb.co/1bSbLbC/eye.png",
         "category": "Japanese"
     },
     {
-        "img": "/src/assets/food (7).png",
+        "img": "https://i.ibb.co/KFyS6kX/food-7.png",
         "title": "Grilled Ribeye Steak",
         "rating": 4.9,
         "price": 19.99,
-        "icon1": "/src/assets/love.png",
-        "icon2": "/src/assets/eye.png",
+        "icon1": "https://i.ibb.co/mBdVznv/love.png",
+        "icon2": "https://i.ibb.co/1bSbLbC/eye.png",
         "category": "Steakhouse"
     },
     {
-        "img": "/src/assets/food (8).png",
+        "img": "https://i.ibb.co/9GkRbMB/food-8.png",
         "title": "Penne Arrabbiata",
         "rating": 4.7,
         "price": 11.99,
-        "icon1": "/src/assets/love.png",
-        "icon2": "/src/assets/eye.png",
+        "icon1": "https://i.ibb.co/mBdVznv/love.png",
+        "icon2": "https://i.ibb.co/1bSbLbC/eye.png",
         "category": "Italian"
     }
 ]

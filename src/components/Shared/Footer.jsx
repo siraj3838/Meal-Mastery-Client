@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 const Footer = () => {
     return (
-        <div className="bg-base-200">
+        <div className="bg-base-200 overflow-hidden">
             <div
                 className="hero xl:h-[370px] md:h-[600px]"
                 style={{ backgroundImage: `url(${banner})` }}
@@ -20,7 +20,7 @@ const Footer = () => {
                             <p className='text-center px-20'> Welcome to our vibrant community of food lovers! Here, we celebrate the joy of eating and the art of cooking</p>
                         </div>
                     </nav>
-                    <nav className='col-span-2 ml-32'>
+                    <nav className='col-span-2 xl:ml-32'>
                         <div>
                             <h3 className='text-2xl font-extrabold xl:mt-20'>Short Link</h3>
                             <div className='flex flex-col justify-center gap-4 mt-7 text-lg font-semibold'>

@@ -1,22 +1,48 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import WOW from 'wowjs';
-import 'animate.css';
 import { Link } from 'react-router-dom';
 import banner from '../../assets/banner-1.png';
 import banner2 from '../../assets/banner-2.jpg';
 import banner3 from '../../assets/banner-3.jpg';
+import { AuthContext } from '../../Provider/AuthProvider';
+import useAxios from '../../Hook/useAxios';
+import toast from 'react-hot-toast';
 
 const Banner = () => {
-  useEffect(() => {
-    new WOW.WOW().init();
-  }, []);
 
+
+  const { googleLoginUser, user, } = useContext(AuthContext)
+    const myAxios = useAxios();
+    const handleGoogleLogin = () => {
+        googleLoginUser()
+            .then(res => {
+                console.log(res);
+                const userInfo = {
+                    displayName: res.user.displayName,
+                    email: res.user.email,
+                    photoURL: res.user.photoURL,
+                    coin: 50
+                }
+                toast.success('Welcome to Our Mastery!')
+                myAxios.post('/users', userInfo)
+                    .then(res => {
+                        if (res.data.insertedId) {
+                            console.log('Logged in successfully');
+                        }
+                        if (res.data.insertedId == null) {
+                            console.log('This Mail Already Exist');
+                        }
+                    })
+            })
+            .catch(err => {
+                console.log(err);
+            })
+    }
   return (
     <div>
       <Swiper
@@ -57,11 +83,16 @@ const Banner = () => {
                       See recipes
                     </button>
                   </Link>
-                  <Link to="/login">
+                  { user ? <Link to="/addRecipes">
                     <button className="bg-[#FF5E15] text-white py-3 px-7 rounded hover:bg-[#ff3815] hover:scale-110 duration-600 transition-all" data-wow-delay="2.5s">
                       Add recipes
                     </button>
                   </Link>
+                  :
+                  <button onClick={handleGoogleLogin} className="bg-[#FF5E15] text-white py-3 px-7 rounded hover:bg-[#ff3815] hover:scale-110 duration-600 transition-all" data-wow-delay="2.5s">
+                    Add recipes
+                  </button>
+                  }
                 </div>
               </div>
             </div>

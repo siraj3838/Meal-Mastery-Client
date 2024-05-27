@@ -51,7 +51,7 @@ const OurTeam = () => {
     };
 
     return (
-        <div className="px-4 sm:px-6 md:px-8 py-16 xl:px-[200px] bg-slate-200">
+        <div className="px-4 sm:px-6 md:px-8 pt-16 pb-28 xl:px-[200px] bg-slate-200">
             <div className="text-center sm:text-left text-4xl font-extrabold mb-8">
                 <h2 className="text-[#FF5E15]">Our Team</h2>
                 <h1 className="text-5xl mt-5">Meet Our Expert Chefs</h1>

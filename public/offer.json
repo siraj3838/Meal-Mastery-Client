@@ -1,41 +1,41 @@
 [
     {
-        "icon1": "/src/assets/food-1.png",
-        "icon2": "/src/assets/icon-1.png",
-        "icon3": "/src/assets/icon-2.png",
-        "icon4": "/src/assets/icon-3.png",
+        "icon1": "https://i.ibb.co/L5dmVgZ/food-1.png",
+        "icon2": "https://i.ibb.co/Z6qFtnh/icon-1.png",
+        "icon3": "https://i.ibb.co/Rb5cwk7/icon-2.png",
+        "icon4": "https://i.ibb.co/Sw8vxdK/icon-3.png",
         "title": "Spaghetti Carbonara",
         "description": "Enjoy the authentic taste of Italy with this quick and easy Spaghetti Carbonara"
     },
     {
-        "icon1": "/src/assets/food-2.png",
-        "icon2": "/src/assets/icon-1.png",
-        "icon3": "/src/assets/icon-2.png",
-        "icon4": "/src/assets/icon-3.png",
+        "icon1": "https://i.ibb.co/dBJcw6x/food-2.png",
+        "icon2": "https://i.ibb.co/Z6qFtnh/icon-1.png",
+        "icon3": "https://i.ibb.co/Rb5cwk7/icon-2.png",
+        "icon4": "https://i.ibb.co/Sw8vxdK/icon-3.png",
         "title": "Vegetable Stir Fry",
         "description": "A nutritious and vibrant vegetable stir fry that's both quick to make and recipe"
     },
     {
-        "icon1": "/src/assets/food-3.png",
-        "icon2": "/src/assets/icon-1.png",
-        "icon3": "/src/assets/icon-2.png",
-        "icon4": "/src/assets/icon-3.png",
+        "icon1": "https://i.ibb.co/N6v47wq/food-3.png",
+        "icon2": "https://i.ibb.co/Z6qFtnh/icon-1.png",
+        "icon3": "https://i.ibb.co/Rb5cwk7/icon-2.png",
+        "icon4": "https://i.ibb.co/Sw8vxdK/icon-3.png",
         "title": "Chicken Alfredo",
         "description": "A rich and creamy Chicken Alfredo pasta that’s perfect for a comforting dinner."
     },
     {
-        "icon1": "/src/assets/food-2.png",
-        "icon2": "/src/assets/icon-1.png",
-        "icon3": "/src/assets/icon-2.png",
-        "icon4": "/src/assets/icon-3.png",
+        "icon1": "https://i.ibb.co/dBJcw6x/food-2.png",
+        "icon2": "https://i.ibb.co/Z6qFtnh/icon-1.png",
+        "icon3": "https://i.ibb.co/Rb5cwk7/icon-2.png",
+        "icon4": "https://i.ibb.co/Sw8vxdK/icon-3.png",
         "title": "Tacos",
         "description": "Delicious and customizable tacos, perfect for a quick and fun meal."
     },
     {
-        "icon1": "/src/assets/food-1.png",
-        "icon2": "/src/assets/icon-1.png",
-        "icon3": "/src/assets/icon-2.png",
-        "icon4": "/src/assets/icon-3.png",
+        "icon1": "https://i.ibb.co/L5dmVgZ/food-1.png",
+        "icon2": "https://i.ibb.co/Z6qFtnh/icon-1.png",
+        "icon3": "https://i.ibb.co/Rb5cwk7/icon-2.png",
+        "icon4": "https://i.ibb.co/Sw8vxdK/icon-3.png",
         "title": "Caprese Salad",
         "description": "A fresh and simple Caprese Salad, perfect as a starter or light meal."
     }
