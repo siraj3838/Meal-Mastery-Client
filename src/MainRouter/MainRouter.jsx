@@ -4,6 +4,8 @@ import Home from "../Pages/Home/Home";
 import AddRecipes from "../Pages/AddRecipes/AddRecipes";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PurchaseCoin from "../Pages/PurchaseCoin/PurchaseCoin";
+import FoodDetails from "../components/Details/FoodDetails";
+import Recipes from "../Pages/Recipes/Recipes";
 
 const MainRouter = createBrowserRouter([
     {
@@ -22,6 +24,14 @@ const MainRouter = createBrowserRouter([
             {
                 path: '/purchaseCoin',
                 element: <PurchaseCoin />
+            },
+            {
+                path: '/recipes',
+                element: <Recipes />
+            },
+            {
+                path: '/foodDetails/:title',
+                element: <FoodDetails />
             },
         ]
     }

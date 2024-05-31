@@ -5,14 +5,14 @@ import { FaGithub } from "react-icons/fa";
 
 const DevInfo = () => {
     return (
-        <div className="px-4 sm:px-6 md:px-8 py-16 xl:px-[200px] bg-slate-200">
-            <div className="text-center sm:text-left text-4xl font-extrabold mb-8">
+        <div className="px-4 sm:px-6 md:px-8 py-8 lg:py-16 xl:px-[200px] bg-slate-200 border-b-2 border-gray-300">
+            <div className="text-center sm:text-left text-2xl lg:text-4xl font-extrabold mb-8">
                 <h2 className="text-[#FF5E15]">Dev Info</h2>
-                <h1 className="text-5xl mt-5">Crafting a Seamless Culinary Experience</h1>
+                <h1 className="text-3xl lg:text-5xl mt-5">Crafting a Seamless Culinary Experience</h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center gap-10'>
                 {/* information */}
-                <div className='col-span-1 border border-[#FF5E15] p-6'>
+                <div className='col-span-1 border border-[#FF5E15] p-6 h-[274px]'>
                     <h3 className='text-2xl font-semibold mb-5'>Information</h3>
                     <div className="space-y-3">
                         <div className="flex items-center gap-3">
@@ -34,7 +34,7 @@ const DevInfo = () => {
                     </div>
                 </div>
                 {/* Educational */}
-                <div className='col-span-1 border border-[#FF5E15] p-6'>
+                <div className='col-span-1 border border-[#FF5E15] p-6 h-[274px]'>
                     <h3 className='text-2xl font-semibold mb-5'>Educational</h3>
                     <div className="space-y-3">
                         <div className="space-y-2">
@@ -60,7 +60,7 @@ const DevInfo = () => {
                     </div>
                 </div>
                 {/* Experience */}
-                <div className='col-span-1 border border-[#FF5E15] p-6'>
+                <div className='col-span-1 border border-[#FF5E15] p-6 h-[274px]'>
                     <h3 className='text-2xl font-semibold mb-5'>Experience</h3>
                     <div className="space-y-3">
                         <div className="space-y-2">
@@ -84,7 +84,7 @@ const DevInfo = () => {
                     </div>
                 </div>
                 {/* Technology */}
-                <div className='col-span-1 border border-[#FF5E15] p-6'>
+                <div className='col-span-1 border border-[#FF5E15] p-6 h-[274px]'>
                     <h3 className='text-2xl font-semibold mb-5'>Technology</h3>
                     <div className="space-y-3">
                         <div className="grid text-sm lg:text-base grid-cols-3 gap-3">

@@ -2,10 +2,13 @@ import { Link } from "react-router-dom";
 import Rating from "react-rating";
 
 const FoodCard = ({ item }) => {
+    
     return (
         <div className="bg-white shadow rounded">
             <div className="w-full relative">
-                <img className="w-full rounded-tl rounded-tr" src={item?.img} alt="" />
+                <Link to={`/foodDetails/${item?.title}`}>
+                    <img className="w-full rounded-tl rounded-tr" src={item?.img} alt="" />
+                </Link>
                 <div className="bg-[#FF5E15] py-3 w-2/5 text-center absolute -bottom-6 right-0">
                     <h5 className="text-white font-extrabold text-xl">{item?.category}</h5>
                 </div>

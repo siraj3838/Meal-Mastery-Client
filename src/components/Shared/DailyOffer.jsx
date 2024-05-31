@@ -51,10 +51,10 @@ const DailyOffer = () => {
     };
 
     return (
-        <div className="px-4 sm:px-6 md:px-8 py-16 xl:px-[200px] bg-slate-200">
-            <div className="text-center sm:text-left text-4xl font-extrabold mb-8">
+        <div className="px-4 sm:px-6 md:px-8 py-8 lg:py-16 xl:px-[200px] bg-slate-200 border-b-2 border-gray-300">
+            <div className="text-center sm:text-left text-2xl lg:text-4xl font-extrabold mb-8">
                 <h2 className="text-[#FF5E15]">Daily Offer</h2>
-                <h1 className="text-5xl mt-5">Up To 75% Off For This Day</h1>
+                <h1 className="text-3xl lg:text-5xl mt-5">Up To 75% Off For This Day</h1>
             </div>
             <Slider {...settings} className="">
                 {

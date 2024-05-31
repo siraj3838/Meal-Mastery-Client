@@ -1,10 +1,10 @@
 
 const AboutUs = () => {
     return (
-        <div className="px-4 sm:px-6 md:px-8 py-16 xl:px-[200px] bg-slate-200">
-            <div className="text-center sm:text-left text-4xl font-extrabold mb-8">
+        <div className="px-4 sm:px-6 md:px-8 py-8 lg:py-16 xl:px-[200px] bg-slate-200 border-b-2 border-gray-300">
+            <div className="text-center sm:text-left text-2xl lg:text-4xl font-extrabold mb-8">
                 <h2 className="text-[#FF5E15]">About Us</h2>
-                <h1 className="text-5xl mt-5">Sharing the Love of Cooking</h1>
+                <h1 className="text-3xl lg:text-5xl mt-5">Sharing the Love of Cooking</h1>
             </div>
             <div>
                 <p>Welcome to Meal Mastery, a vibrant community of food enthusiasts dedicated to sharing and discovering delicious recipes from around the world. Our mission is to bring people together through the joy of cooking and the love of food, creating a space where everyone from novice cooks to seasoned chefs can find inspiration and share their culinary creations.

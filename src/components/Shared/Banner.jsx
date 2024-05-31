@@ -62,19 +62,19 @@ const Banner = () => {
       >
         <SwiperSlide className="swiper-slide">
           <div
-            className="hero h-[440px] xl:h-[750px] md:h-[400px]"
+            className="hero h-[440px] xl:h-[850px] md:h-[400px]"
             style={{ backgroundImage: `url(${banner})` }}
           >
             <div className="hero-overlay bg-opacity-75"></div>
             <div className="flex justify-start items-center text-center text-neutral-content">
-              <div className="max-w-lg wow fadeInRight" data-wow-delay="1.5s">
+              <div className="max-w-xl wow fadeInRight" data-wow-delay="1.5s">
                 <h2 className="text-[#FF5E15] text-2xl md:text-3xl font-extrabold">
                   Satisfy Your Cravings
                 </h2>
-                <h1 className="my-5 text-3xl md:text-5xl font-bold">
+                <h1 className="mb-10 mt-3 text-3xl md:text-5xl font-bold">
                   Delicious Foods With Wonderful Eating
                 </h1>
-                <p className="mb-5">
+                <p className="mb-10">
                   Welcome to our vibrant community of food lovers! Here, we celebrate the joy of eating and the art of cooking, bringing you an array of delicious recipes that will tantalize your taste buds and inspire your culinary adventures.
                 </p>
                 <div className="flex items-center gap-4 justify-center wow fadeInUp" data-wow-delay="2s">
@@ -100,19 +100,19 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div
-            className="hero h-[440px] xl:h-[750px] md:h-[400px]"
+            className="hero h-[440px] xl:h-[850px] md:h-[400px]"
             style={{ backgroundImage: `url(${banner2})` }}
           >
             <div className="hero-overlay bg-opacity-75"></div>
             <div className="flex justify-start items-center text-center text-neutral-content">
-              <div className="max-w-lg wow fadeInRight" data-wow-delay="1.5s">
+              <div className="max-w-xl wow fadeInRight" data-wow-delay="1.5s">
                 <h2 className="text-[#FF5E15] text-2xl md:text-3xl font-extrabold">
                   Delicious Desserts to Enjoy
                 </h2>
-                <h1 className="my-5 text-3xl md:text-5xl font-bold">
+                <h1 className="mb-10 mt-3 text-3xl md:text-5xl font-bold">
                   Cherished Recipes Passed Down
                 </h1>
-                <p className="mb-5">
+                <p className="mb-10">
                   Life is busy, but that doesn’t mean you have to sacrifice flavor. Find and share quick and easy recipes that fit into your hectic schedule without compromising on taste.
                 </p>
                 <div className="flex items-center gap-4 justify-center wow fadeInUp" data-wow-delay="2s">
@@ -133,19 +133,19 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div
-            className="hero h-[440px] xl:h-[750px] md:h-[400px]"
+            className="hero h-[440px] xl:h-[850px] md:h-[400px]"
             style={{ backgroundImage: `url(${banner3})` }}
           >
             <div className="hero-overlay bg-opacity-75"></div>
             <div className="flex justify-start items-center text-center text-neutral-content">
-              <div className="max-w-lg wow fadeInRight" data-wow-delay="1.5s">
+              <div className="max-w-xl wow fadeInRight" data-wow-delay="1.5s">
                 <h2 className="text-[#FF5E15] text-2xl md:text-3xl font-extrabold">
                   Explore Plant-Based Recipes
                 </h2>
-                <h1 className="my-5 text-3xl md:text-5xl font-bold">
+                <h1 className="mb-10 mt-3 text-3xl md:text-5xl font-bold">
                   Elevate Your Cooking with Gourmet Recipes
                 </h1>
-                <p className="mb-5">
+                <p className="mb-10">
                   Step up your culinary game with our collection of gourmet recipes. Perfect for special occasions or when you want to impress, these dishes are sure to elevate your home cooking.
                 </p>
                 <div className="flex items-center gap-4 justify-center wow fadeInUp" data-wow-delay="2s">

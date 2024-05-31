@@ -13,11 +13,11 @@ const Footer = () => {
                 <footer className="p-10 xl:px-[200px] text-white grid md:grid-cols-2 xl:grid-cols-5 gap-6 items-center">
                     <nav className='col-span-2'>
                         <div>
-                            <div className="flex justify-center items-center h-[120px] gap-3">
+                            <div className="flex md:justify-center items-center h-[120px] gap-3">
                                 <img className="w-16" src={logo} alt="" />
                                 <h4 className="text-white text-3xl font-semibold">Meal Mastery</h4>
                             </div>
-                            <p className='text-center px-20'> Welcome to our vibrant community of food lovers! Here, we celebrate the joy of eating and the art of cooking</p>
+                            <p className='-ml-10 px-10 text-center md:-ml-0 lg:px-20'> Welcome to our vibrant community of food lovers! Here, we celebrate the joy of eating and the art of cooking</p>
                         </div>
                     </nav>
                     <nav className='col-span-2 xl:ml-32'>

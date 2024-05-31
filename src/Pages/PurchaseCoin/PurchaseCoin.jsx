@@ -37,7 +37,7 @@ const PurchaseCoin = () => {
     }
 
     return (
-        <div className="px-4 sm:px-6 md:px-8 py-16 xl:px-[200px]">
+        <div className="px-4 sm:px-6 md:px-8 py-8 lg:py-16 xl:px-[200px] bg-slate-200 border-b-2 border-gray-300">
             <div className="bg-[#FF5E15]">
                 <div>
                     <h3 className="text-3xl font-extrabold text-white text-center pt-10 lg:pt-16">Purchase Coin</h3>
