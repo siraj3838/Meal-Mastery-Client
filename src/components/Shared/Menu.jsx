@@ -90,7 +90,7 @@ const Menu = () => {
             {/* large */}
             <div className="hidden lg:block bg-white">
                 <div className="grid grid-cols-6 items-center h-[63px]">
-                    <div className={`col-span-4 xl:col-span-3 pl-11 flex ${user ? 'gap-14' : 'gap-20'} items-center`}>
+                    <div className={`col-span-4 xl:col-span-3 pl-11 flex flex-wrap justify-center ${user ? 'gap-14' : 'gap-20'} items-center`}>
                         {navList}
                     </div>
                     <div className="col-span-2 xl:col-span-3 flex justify-end items-center pr-5">
@@ -113,7 +113,7 @@ const Menu = () => {
             </div>
             {/* mobile */}
             <div className="lg:hidden block">
-                <div className="flex justify-center items-center h-[63px]">
+                <div className="flex flex-wrap justify-center items-center h-[63px]">
                     <div className={` flex ${user ? 'gap-4' : 'gap-6'} items-center`}>
                         {navList}
                     </div>

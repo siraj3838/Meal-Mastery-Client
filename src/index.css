@@ -196,3 +196,63 @@
     border-radius: 10px;
   }
   
+
+  .tooltip-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  .tooltip-container-two {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  
+  .tooltip-text {
+    position: absolute;
+    bottom: 100%; /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  .tooltip-text-two {
+    position: absolute;
+    bottom: 30%; /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .tooltip-container-two:hover .tooltip-text-two {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  .tooltip-container-two:hover .title-text {
+    color: #FF5E15;
+  }
+  
