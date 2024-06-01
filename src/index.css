@@ -215,8 +215,8 @@
   
   .tooltip-text {
     position: absolute;
-    bottom: 100%; /* Position above the icon */
-    left: 50%;
+    bottom: 95%; /* Position above the icon */
+    left: 40%;
     transform: translateX(-50%);
     margin-bottom: 8px;
     padding: 6px 10px;
@@ -228,6 +228,7 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
+    z-index: 99;
   }
   .tooltip-text-two {
     position: absolute;
@@ -246,13 +247,13 @@
     transition: opacity 0.3s, visibility 0.3s;
   }
   
-  .tooltip-container-two:hover .tooltip-text-two {
+  .tooltip-container:hover .tooltip-text {
     opacity: 1;
     visibility: visible;
   }
   
   
-  .tooltip-container-two:hover .title-text {
+  .tooltip-container-two:hover .title-text-two {
     color: #FF5E15;
   }
   
