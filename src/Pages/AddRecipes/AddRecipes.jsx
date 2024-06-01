@@ -41,7 +41,7 @@ const AddRecipes = () => {
                 <div className='flex-1'>
                     <img className='w-full h-full' src={banner} alt="" />
                 </div>
-                <div className='flex-1 bg-[#FF5E15] p-10'>
+                <div className='flex-1 bg-[#FF5E15] pr-20 pt-10 pb-10 pl-10 w-full overflow-hidden'>
                     <h3 className='text-3xl font-extrabold text-white pb-5'>Add New Recipes</h3>
                     <form onSubmit={handleSubmit(onSubmit)} className='grid lg:grid-cols-2 gap-9 py-11'>
                         <div className="form-row">

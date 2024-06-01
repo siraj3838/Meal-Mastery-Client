@@ -7,17 +7,17 @@ import { Link } from "react-router-dom";
 const TopBar = () => {
     return (
         <div className="h-[63px] grid grid-cols-6 bg-black text-white pl-10">
-            <div className="flex items-center gap-6 col-span-2">
-                <div className="flex items-center gap-3">
+            <div className="flex items-center gap-6 col-span-3 xl:col-span-2">
+                <div className="flex items-center gap-1 xl:gap-3 text-sm">
                     <FaLocationDot />
                     <a className='' target='_blank' href="https://maps.app.goo.gl/gQL58bFywTR4EF2N6">Rampura, Dhaka 1219</a>
                 </div>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-1 xl:gap-3">
                     <FaLocationArrow />
                     <a href="mailto:sirajul.islam583853@gmail.com?body=My custom mail body" className="">sirajul.islam583853@gmail.com</a>
                 </div>
             </div>
-            <div className="col-span-1">
+            <div className="lg:hidden xl:block xl:col-span-1">
             </div>
             <div className="col-span-2 flex items-center justify-end gap-5 text-lg pr-10">
                 <p className="hover:scale-110 duration-600 transition-all hover:text-[#FF5E15]"><FaFacebook /></p>

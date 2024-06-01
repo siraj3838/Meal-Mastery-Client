@@ -7,8 +7,8 @@ const Navbar = () => {
     return (
         <div>
             {/* large */}
-            <div className="hidden lg:block">
-                <div className="grid grid-cols-5 h-[126px] border-b">
+            <div className="hidden lg:block pb-[125px]">
+                <div className="grid grid-cols-5 h-[126px] border-b fixed top-0 z-20 w-full">
                     {/* Logo Content */}
                     <div className="col-span-1 bg-[#FF5E15]">
                         <Link to={'/'}>

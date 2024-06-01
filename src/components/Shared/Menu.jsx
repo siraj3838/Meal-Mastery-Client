@@ -3,9 +3,14 @@ import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import useAxios from "../../Hook/useAxios";
 import toast from "react-hot-toast";
+import icon from '../../assets/coin-icon.gif';
+import useUsers from "../../Hook/useUsers";
+
+
 const Menu = () => {
     const { googleLoginUser, user, logOutUser } = useContext(AuthContext)
     const myAxios = useAxios();
+    const [users, refetch] = useUsers();
     const handleGoogleLogin = () => {
         googleLoginUser()
             .then(res => {
@@ -21,6 +26,7 @@ const Menu = () => {
                     .then(res => {
                         if (res.data.insertedId) {
                             console.log('Logged in successfully');
+                            refetch();
                         }
                         if (res.data.insertedId == null) {
                             console.log('This Mail Already Exist');
@@ -82,26 +88,26 @@ const Menu = () => {
     return (
         <div>
             {/* large */}
-            <div className="hidden lg:block">
+            <div className="hidden lg:block bg-white">
                 <div className="grid grid-cols-6 items-center h-[63px]">
-                    <div className={`col-span-2 pl-11 flex ${user ? 'gap-14' : 'gap-20'} items-center`}>
+                    <div className={`col-span-4 xl:col-span-3 pl-11 flex ${user ? 'gap-14' : 'gap-20'} items-center`}>
                         {navList}
                     </div>
-                    <div className="col-span-2 flex justify-end pr-5">
+                    <div className="col-span-2 xl:col-span-3 flex justify-end items-center pr-5">
                         {
-                            user ? <div className="avatar online">
-                                <div className="w-12 rounded-full">
-                                    <img src={user?.photoURL} />
+                            user ? <div className="flex items-center gap-2">
+                                <div className="flex items-center">
+                                    <img className="w-9" src={icon} alt="" />
+                                    <span className="font-semibold text-xl">+ {users?.coin}</span>
+                                </div>
+                                <div className="avatar online">
+                                    <div className="w-12 rounded-full">
+                                        <img src={user?.photoURL} />
+                                    </div>
                                 </div>
                             </div>
                                 : ''
                         }
-                    </div>
-                    <div className="col-span-2 pr-16">
-                        <label className="input input-bordered input-warning flex items-center gap-2">
-                            <input type="text" className="grow" placeholder="Search Recipe..." />
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
-                        </label>
                     </div>
                 </div>
             </div>
