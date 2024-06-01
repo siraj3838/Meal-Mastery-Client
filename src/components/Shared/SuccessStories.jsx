@@ -1,4 +1,4 @@
-import React from 'react';
+
 import CountUp from 'react-countup';
 
 const SuccessStories = () => {
@@ -11,7 +11,7 @@ const SuccessStories = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-5 lg:gap-10 lg:border-t lg:border-b border-[#FF5E15]'>
                 <div className='text-center flex-1 border-[#FF5E15] border-r p-2 lg:p-7'>
                     <h2 className='text-3xl font-extrabold'>
-                        <CountUp end={5000} duration={2} />
+                        <CountUp end={5000} duration={7} />
                         +
                     </h2>
                     <h5 className='py-4 text-xl font-semibold'>Recipes Shared</h5>
@@ -21,7 +21,7 @@ const SuccessStories = () => {
                 </div>
                 <div className='text-center flex-1 border-[#FF5E15] border-r p-2 lg:p-7'>
                     <h2 className='text-3xl font-extrabold'>
-                        <CountUp end={1000} duration={2} />
+                        <CountUp end={1000} duration={7} />
                         +
                     </h2>
                     <h5 className='py-4 text-xl font-semibold'>Our members</h5>
@@ -31,7 +31,7 @@ const SuccessStories = () => {
                 </div>
                 <div className='text-center flex-1 p-2 lg:p-7 border-[#FF5E15] border-r lg:border-r-0'>
                     <h2 className='text-3xl font-extrabold'>
-                        <CountUp end={500} duration={2} />
+                        <CountUp end={500} duration={7} />
                         +
                     </h2>
                     <h5 className='py-4 text-xl font-semibold'>Culinary Courses Completed</h5>

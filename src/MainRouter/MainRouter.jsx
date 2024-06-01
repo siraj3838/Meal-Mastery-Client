@@ -6,6 +6,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PurchaseCoin from "../Pages/PurchaseCoin/PurchaseCoin";
 import FoodDetails from "../components/Details/FoodDetails";
 import Recipes from "../Pages/Recipes/Recipes";
+import PrivateRouter from "./PrivateRouter/PrivateRouter";
 
 const MainRouter = createBrowserRouter([
     {
@@ -19,7 +20,7 @@ const MainRouter = createBrowserRouter([
             },
             {
                 path: '/addRecipes',
-                element: <AddRecipes />
+                element: <PrivateRouter><AddRecipes /></PrivateRouter>
             },
             {
                 path: '/purchaseCoin',
